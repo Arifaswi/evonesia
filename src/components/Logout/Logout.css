@@ -1,7 +1,92 @@
-.main-logout{background-image: url('../../images/Gradient 3.png');
-    background-repeat:  no-repeat;
-    background-size: cover;
-  height: 100vh;
-  background-position: center;
+.bglogout {background-image: url('../../images/Gradient 3.png');
+  position: fixed;
+  background-size: cover;
+height: 100vh;
+width: 100vw;
   }
-  
+  .Segi5{position: absolute;
+    width: 152px;
+    height: 169px;
+    left: 580px;
+    top: 104px;}
+
+  .katalogout{position: absolute;
+    width: 520px;
+    height: 152px;
+    left: calc(56% - 727px/2 + 0.5px);
+    top: calc(52% - 152px/2 + 11px);
+    color:#DFDFDF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;}
+
+
+  .logout-contain button{
+    position: absolute;
+    width: 174px;
+    height: 42px;
+    left: 570px;
+    top: 407px;
+    display: block;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    background-image: linear-gradient(to right, #183446,#2f4d5f,#5b8eaa 0,1);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    color: #DFDFDF;
+  }
+  .icon3log{bottom: 50px;
+    left: 570px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px; 
+    position: absolute;
+
+    }
+.icon3log >.icongit{background-image: url('../../images/Git.svg');
+left: 0px;
+position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+   }
+.icon3log >.iconig{background-image: url('../../images/Instagram.svg');
+    width: 29px;
+    left: 120px;
+position: absolute;
+    height: 30px;
+    background-size: contain;
+}
+.icon3log >.iconlink{background-image: url('../../images/Linkedin.svg');
+    width: 30px;
+    height: 30px;
+    left: 60px;
+    position: absolute;
+    background-size: contain;}
+      
+      .iconkirilog{ 
+        border-radius: 40px;
+        position: absolute;
+      width: 45px;
+      height: 45px;
+      left: -1025px;
+      bottom:-399px;}
+      .iconkananlog{ 
+        border-radius: 40px;
+        position: absolute;
+        width: 45px;
+        height: 45px;
+      right: 140px;
+      bottom:-399px;}
+

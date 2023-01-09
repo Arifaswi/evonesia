@@ -45,7 +45,7 @@ const Register = () => {
     }
 return (<>
             <div className="main-register">
-            <div className="Register-contain">
+            <div className='bgregister'></div>
             <img className='logo2' src={logo2} alt="" />
         <img className='vector' src={loginImg} alt="" />
         <img className='logo1' src={logo1} alt="" />
@@ -54,7 +54,7 @@ return (<>
 <form className="form-reg">
         <div className="input-div">    
         <div className="div">
-        <input type="text" className="form-control" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Tulisakan Nama Anda" />
+        <input type="text" className="form-control" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Full Name" />
                                             {
                                                 validation.name && (
                                                     <small className="text-danger">
@@ -67,7 +67,7 @@ return (<>
    
                         <div className="input-div">           
            	<div className="div">
-<input type="text" className="form-control" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email@example.com" />
+<input type="text" className="form-control" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
                                             {
                                                 validation.email && (
                                                     <small className="text-danger">
@@ -77,7 +77,7 @@ return (<>
                                  <div className="input-div">
            		   <div className="div">
                       
-<input type="password" className="form-control" id="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="********" />
+<input type="password" className="form-control" id="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
                                             {
                                                 validation.password && (
                                                     <small className="text-danger">
@@ -96,15 +96,9 @@ return (<>
                                     <p >Create Account</p>
                                     <div className="box1" ><div className="a">Evonesia1@gmail.com</div></div>
                                     <div className="box2" ><div className="a">Evonesia</div></div>
+                </div><div></div>
                 </div>
-                
-            
-                            <div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-            
+            </div>
             </>
          );
     }

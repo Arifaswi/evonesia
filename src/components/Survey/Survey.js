@@ -7,6 +7,7 @@ import bingkaikanan from '../../images/Clone X 18.png';
 function Survey() {
   return (
       <div className="main-survey">
+        <div className='bgsurvey'></div>
         <img className='logo2' src={logo2} alt="" />
 <div id="menu">
     <div id="topmenu">
@@ -15,7 +16,7 @@ function Survey() {
       <li><Link to='/Token'>Token</Link></li>
       <li><Link to='/Survey'>Survey</Link></li>
       <li><Link to='/Polling'>Polling</Link></li>
-      <li><Link to='/'>Log Out</Link></li>
+      <li><Link to='/Logout'>Log Out</Link></li>
       </ul>
     </div>
 </div>

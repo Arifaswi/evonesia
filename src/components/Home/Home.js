@@ -2,7 +2,7 @@ import React from 'react';
 import "./Home.css";
 import {Link} from "react-router-dom";
 import smallspline from '../../images/Spline 2.png';
-import itembulat from '../../images/Mystery Item B.png';
+import iconbulat from '../../images/Mystery Item B.png';
 import logo2 from '../../images/EVONESIA putih fix 5.png';
 import iconhome1 from '../../images/Polygon 1.png';
 import iconhome2 from '../../images/BAYC 1.png';
@@ -12,9 +12,11 @@ import iconhome5 from '../../images/Clone X 11.png';
 const home = () => {
   return (
     <>
-    <img className='logo2' src={logo2} alt="" />
-    <img className='itembulat' src={itembulat} alt="" />
+    
       <div className="main-home">
+        <div className='bghome'></div>
+        <img className='logo2' src={logo2} alt="" />
+    <img className='iconbulat' src={iconbulat} alt="" />
         <div className='katahome '><img className='smallspline' src={smallspline} alt="" /></div>
         <div className='katahome'>
           <div id='katahome1'>Our environmental impact matters to us.</div>
@@ -42,7 +44,7 @@ const home = () => {
       <li><Link to='/Token'>Token</Link></li>
       <li><Link to='/Survey'>Survey</Link></li>
       <li><Link to='/Polling'>Polling</Link></li>
-      <li><Link to='/'>Log Out</Link></li>
+      <li><Link to='/Logout'>Log Out</Link></li>
       </ul>
     </div>
 </div>

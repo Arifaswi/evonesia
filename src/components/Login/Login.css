@@ -1,8 +1,8 @@
-.main-login{background-image: url('../../images/Gradient1.png');
-    background-repeat:  no-repeat;
+.bglogin{background-image: url('../../images/Gradient1.png');
+    position: fixed;
     background-size: cover;
-  height: 100vh;
-  background-position: center;
+	height: 100vh;
+  width: 100vw;
   }
 .form-log
     {  font-size: 2px;
