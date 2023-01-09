@@ -1,11 +1,11 @@
 .main-token{background-image: url('../../images/Gradient 3.png');
-    background-repeat:  no-repeat;
-    background-size: cover;
-  height: 100vh;
-  background-position: center;
+  position: fixed;
+  background-size: cover;
+height: 100%;
+width: 100%;
   }
   
-  #topmenu li{
+#topmenu li{
     float:left; padding:0 3px 0 0px;
     display: inline;
     position:relative;
@@ -69,9 +69,10 @@ line-height: 150%;
 font-weight: normal;
 display: flex;
 align-items: flex-end;
-
 }
-.wallet button{background: #183446;
+
+.wallet button{
+  background-image: linear-gradient(to right, #183446,#536c7c,#5b8eaa);
   border-radius:50px;
   width: 200px;
   height: 50px;
@@ -79,6 +80,8 @@ align-items: flex-end;
   left: 110px;
   bottom: 80px;
   text-decoration: none;
+  cursor: pointer;
+  transition: .5s;
 }
 #wallet1 {color: #ffffff;
   position: absolute;

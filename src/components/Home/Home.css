@@ -1,7 +1,8 @@
-.main-home{background-image: url('../../images/Gradient1.png');
-    background-repeat:  no-repeat;
+.bghome{background-image: url('../../images/Gradient1.png');
+    position: fixed;
     background-size: cover;
-    min-height: 100vh;
+	height: 100%;
+  width: 100%;
   }
   .tittlehome{position: absolute;
     left: 240px;
@@ -169,11 +170,11 @@ font-weight: 650;
     clear:both;
     }
     
-    .itembulat{position: absolute;
+    .iconbulat{position: absolute;
       width: 500px;
       height: 555px;
         left: 0px;
-        top: 35px;
+        top: 50px;
       }
 
     .smallspline{position: absolute;

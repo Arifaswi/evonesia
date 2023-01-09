@@ -1,8 +1,8 @@
-.main-register{background-image: url('../../images/Gradient1.png');
-    background-repeat:  no-repeat;
+.bgregister{background-image: url('../../images/Gradient1.png');
+    position: fixed;
     background-size: cover;
-    min-height: 100vh;
-    background-position: center;
+	height: 100%;
+  width: 100%;
   }
 
 .form-reg{  font-size: 2px;
@@ -55,10 +55,10 @@
     border-radius: 8px;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, #445964,#5c7685,#445964);
-    
+    background-image: linear-gradient(to right, #445964,#536c7c,#85bfdf);
+    background-size: 200%;
     font-size: 15px;
-    color: #fff;
+    color: #ffff;
     font-family: 'Poppins', sans-serif;
     margin: 1rem 0;
     cursor: pointer;
@@ -120,12 +120,12 @@ left : 35px}
     width: 195px;
     height: 32px;
     left: 90px;
-    top: 30px;
+    top: 40px;
   }
   .logo1{position: absolute;
     width: 95px;
   height: 95px;
-    right: 220px;
+    right: 215px;
     top: 70px;
   }
 

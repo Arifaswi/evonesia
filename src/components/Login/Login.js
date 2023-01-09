@@ -46,12 +46,13 @@ const Login = () => {
 return(
 <>
 <div className="main-login">
+<div className='bglogin'></div>
 <img className='logo2' src={logo2} alt="" />
 <img className='vector' src={loginImg} alt="" />
 <img className='logo1' src={logo1} alt="" /> 
 
             <div className="contain">
-            <form className="form-log">
+            <form className="form-log" action="Token" >
                                     {
                                         validation.error && (
                                             <div className="alert alert-danger" role="alert">
@@ -62,7 +63,7 @@ return(
 
             <div className="input-div">           
            	<div className="div">
-                 <input type="text" className="form-control" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email@example.com" />
+                 <input type="text" className="form-control" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
                                             {
                                                 validation.email && (
                                                     <small className="text-danger">
@@ -75,7 +76,7 @@ return(
              <div className="input-div">
            		   <div className="div">
                       
-                    <input type="password" className="form-control" id="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="********" />
+                    <input type="password" className="form-control" id="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
                                             {
                                                 validation.password && (
                                                     <small className="text-danger">
@@ -92,7 +93,7 @@ return(
             <div className="icongit"></div>
             </div>
                             <div className="under-form-log">
-                            <div className="router">Don't have an account ?<Link to='/Register'>Register</Link></div>
+                            <div className="router">Don't have an account ?  <Link to='/Register'>Register</Link></div>
                                     <p >Create Account</p>
                                     <div className="box1" ><div className="a">Evonesia1@gmail.com</div></div>
                                     <div className="box2" ><div className="a">Evonesia</div></div>
